@@ -998,7 +998,7 @@ body.nav-active { overflow: hidden; }
 
 .about .abs-img-2::before {
   inset: 0;
-  background-image: url('../images/badge-2-bg.png');
+  /* background-image: url('../images/badge-2-bg.png'); */
   background-repeat: no-repeat;
   background-size: contain;
   animation: rotate360 15s linear infinite;
