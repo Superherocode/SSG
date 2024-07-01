@@ -90,7 +90,7 @@
    * SPACING
    */
 
-  --section-space: 70px;
+  --section-space: 30px;
 
   /**
    * SHADOW
@@ -148,7 +148,7 @@ a {
   text-decoration: none;
 }
 
-img { height: auto; }
+img { height: auto;  }
 
 input,
 button,
@@ -606,10 +606,13 @@ body.nav-active { overflow: hidden; }
   left: 0;
   width: 100%;
   background-color: transparent;
-  padding-block: 40px;
   z-index: 4;
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
+}
+
+.logo img {
+  width: 100px;
 }
 
 .header.active {
@@ -817,7 +820,7 @@ body.nav-active { overflow: hidden; }
   z-index: -1;
   background-size: cover;
   background-color:black;
-  opacity:0.3;
+  opacity:0.6;
 }
 
 .hero .slider-item.active .slider-bg {
@@ -992,7 +995,7 @@ body.nav-active { overflow: hidden; }
   left: 50%;
   transform: translateX(-50%);
   width: 140px;
-  background-image: url('../images/img-pattern.svg');
+  
   background-repeat: repeat;
 }
 
@@ -1288,8 +1291,9 @@ textarea.input-field {
   color: var(--gold-crayola);
   text-transform: uppercase;
   font-weight: var(--weight-bold);
-  letter-spacing: var(--letterSpacing-2);
+  letter-spacing: var(--letterSpacing-1);
   margin-block-end: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .event-card .card-banner .img-cover { transition: var(--transition-2); }
@@ -1311,7 +1315,7 @@ textarea.input-field {
 
 
 
-.footer-top { margin-block-end: 70px; }
+.footer-top { margin-block-end: 0; }
 
 .footer-brand {
   position: relative;
@@ -1747,7 +1751,7 @@ textarea.input-field {
      * spacing
      */
 
-    --section-space: 100px;
+    --section-space: 50px;
 
   }
 
@@ -1988,7 +1992,7 @@ textarea.input-field {
 
   .navbar-list {
     display: flex;
-    gap: 30px;
+    gap: 12px;
   }
 
   .navbar-item { border-block-start: none; }
